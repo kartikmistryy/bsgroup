@@ -117,7 +117,7 @@ export default function ContactUs() {
                   </svg>
                 </div>
                 <h4 className="text-xl font-semibold text-green-600 mb-2">Message Sent!</h4>
-                <p className="text-gray-600">Thank you for contacting us. We'll get back to you within 24 hours.</p>
+                <p className="text-gray-600">Thank you for contacting us. We&apos;ll get back to you within 24 hours.</p>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-6">
