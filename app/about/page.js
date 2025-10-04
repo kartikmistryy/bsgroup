@@ -226,65 +226,65 @@ const About = () => {
       </section>
 
       <section className="w-full h-full flex flex-col relative">
-        <div className="w-full h-full flex flex-col gap-10 max-w-[1300px] mx-auto bg-gradient-to-r from-[#ebfffe] to-[#60d5ffa4] py-24 px-10 rounded-lg">
-          <div className="w-full h-full flex flex-col md:flex-row items-start justify-between gap-6 md:gap-0">
-            <h3 className="w-full md:w-full md:max-w-[25%] text-[#1d264e] pl-5 border-l-4 border-[#3ad8ff] text-lg md:text-xl font-medium uppercase">
+        <div className="w-full h-full flex flex-col gap-6 md:gap-10 max-w-[1300px] mx-auto bg-gradient-to-r from-[#ebfffe] to-[#60d5ffa4] py-12 md:py-24 px-4 md:px-10 rounded-lg">
+          <div className="w-full h-full flex flex-col md:flex-row items-start justify-between gap-4 md:gap-6">
+            <h3 className="w-full md:w-full md:max-w-[25%] text-[#1d264e] pl-3 md:pl-5 border-l-4 border-[#3ad8ff] text-base md:text-lg lg:text-xl font-medium uppercase">
             Our Timeline
             </h3>
 
-            <h3 className="w-full md:w-full md:max-w-[75%] text-[#1d264e] text-4xl lg:text-5xl font-normal uppercase">Our Journey Through the Years</h3>
+            <h3 className="w-full md:w-full md:max-w-[75%] text-[#1d264e] text-2xl md:text-3xl lg:text-5xl font-normal uppercase leading-tight">Our Journey Through the Years</h3>
           </div>
 
-          <div className="w-full max-w-[75%] md:ml-auto pr-20">
+          <div className="w-full md:max-w-[75%] md:ml-auto md:pr-20 mt-10">
           <div className="relative">
             {/* Timeline line */}
-            <div className="absolute left-8 md:left-2.5 top-0 bottom-0 w-0.5 bg-[#3ad8ff]"></div>
+            <div className="absolute left-2 md:left-2.5 lg:left-2.5 top-0 bottom-0 w-0.5 bg-[#3ad8ff]"></div>
             
             {/* Timeline items */}
-            <div className="space-y-16">
+            <div className="space-y-8 md:space-y-16">
               {/* Year 1 */}
-              <div className="relative flex items-start gap-8">
-                <div className="flex-shrink-0 w-5 h-5 md:w-5 md:h-5 bg-[#3ad8ff] rounded-full flex items-center justify-center relative z-10">
+              <div className="relative flex items-start gap-4 md:gap-8">
+                <div className="flex-shrink-0 w-4 h-4 md:w-5 md:h-5 bg-[#3ad8ff] rounded-full flex items-center justify-center relative z-10">
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-xl md:text-3xl font-normal text-[#1d264e] mb-3">2021</h4>
-                  <p className="text-gray-700 max-w-[450px] leading-relaxed text-sm md:text-base">
+                  <h4 className="text-lg md:text-xl lg:text-3xl font-normal text-[#1d264e] mb-2 md:mb-3">2021</h4>
+                  <p className="text-gray-700 max-w-full md:max-w-[450px] leading-relaxed text-sm md:text-base">
                     bsgroup was established with a clear vision to revolutionize the real estate industry through innovative design and sustainable practices. Our founding team brought together decades of experience in construction, architecture, and urban planning to create something truly special in the market.
                   </p>
                 </div>
               </div>
 
               {/* Year 2 */}
-              <div className="relative flex items-start gap-8">
-                <div className="flex-shrink-0 w-5 h-5 md:w-5 md:h-5 bg-[#3ad8ff] rounded-full flex items-center justify-center relative z-10">
+              <div className="relative flex items-start gap-4 md:gap-8">
+                <div className="flex-shrink-0 w-4 h-4 md:w-5 md:h-5 bg-[#3ad8ff] rounded-full flex items-center justify-center relative z-10">
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-xl md:text-3xl font-normal text-[#1d264e] mb-3">2022</h4>
-                  <p className="text-gray-700 max-w-[450px] leading-relaxed text-sm md:text-base">
+                  <h4 className="text-lg md:text-xl lg:text-3xl font-normal text-[#1d264e] mb-2 md:mb-3">2022</h4>
+                  <p className="text-gray-700 max-w-full md:max-w-[450px] leading-relaxed text-sm md:text-base">
                     bsgroup was established with a clear vision to revolutionize the real estate industry through innovative design and sustainable practices. Our founding team brought together decades of experience in construction, architecture, and urban planning to create something truly special in the market.
                   </p>
                 </div>
               </div>
 
               {/* Year 3 */}
-              <div className="relative flex items-start gap-8">
-                <div className="flex-shrink-0 w-5 h-5 md:w-5 md:h-5 bg-[#3ad8ff] rounded-full flex items-center justify-center relative z-10">
+              <div className="relative flex items-start gap-4 md:gap-8">
+                <div className="flex-shrink-0 w-4 h-4 md:w-5 md:h-5 bg-[#3ad8ff] rounded-full flex items-center justify-center relative z-10">
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-xl md:text-3xl font-normal text-[#1d264e] mb-3">2024</h4>
-                  <p className="text-gray-700 max-w-[450px] leading-relaxed text-sm md:text-base">
+                  <h4 className="text-lg md:text-xl lg:text-3xl font-normal text-[#1d264e] mb-2 md:mb-3">2024</h4>
+                  <p className="text-gray-700 max-w-full md:max-w-[450px] leading-relaxed text-sm md:text-base">
                     bsgroup was established with a clear vision to revolutionize the real estate industry through innovative design and sustainable practices. Our founding team brought together decades of experience in construction, architecture, and urban planning to create something truly special in the market.
                   </p>
                 </div>
               </div>
 
               {/* Year 4 */}
-              <div className="relative flex items-start gap-8">
-                <div className="flex-shrink-0 w-5 h-5 md:w-5 md:h-5 bg-[#3ad8ff] rounded-full flex items-center justify-center relative z-10">
+              <div className="relative flex items-start gap-4 md:gap-8">
+                <div className="flex-shrink-0 w-4 h-4 md:w-5 md:h-5 bg-[#3ad8ff] rounded-full flex items-center justify-center relative z-10">
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-xl md:text-3xl font-normal text-[#1d264e] mb-3">2025</h4>
-                  <p className="text-gray-700 max-w-[450px] leading-relaxed text-sm md:text-base">
+                  <h4 className="text-lg md:text-xl lg:text-3xl font-normal text-[#1d264e] mb-2 md:mb-3">2025</h4>
+                  <p className="text-gray-700 max-w-full md:max-w-[450px] leading-relaxed text-sm md:text-base">
                     bsgroup was established with a clear vision to revolutionize the real estate industry through innovative design and sustainable practices. Our founding team brought together decades of experience in construction, architecture, and urban planning to create something truly special in the market.
                   </p>
                 </div>
@@ -298,14 +298,14 @@ const About = () => {
             PROCESS
             </h3>
 
-            <h3 className="w-full md:w-full md:max-w-[75%] text-[#1d264e] text-4xl lg:text-5xl font-normal uppercase">
+            <h3 className="w-full md:w-full md:max-w-[75%] text-[#1d264e] text-2xl md:text-3xl lg:text-5xl font-normal uppercase">
             Check Out How Our Process Works</h3>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 mt-10">
             {/* Statistic 1 */}
             <div className="text-left">
-              <div className="text-4xl md:text-4xl font-normal text-[#1d264e] mb-2">
+              <div className="text-2xl md:text-3xl lg:text-5xl font-normal text-[#1d264e] mb-2">
                 01
               </div>
               <div className="text-lg md:text-2xl uppercase text-[#1d264e] font-medium mb-4">
@@ -319,7 +319,7 @@ const About = () => {
 
             {/* Statistic 2 */}
             <div className="text-left">
-              <div className="text-4xl md:text-4xl font-normal text-[#1d264e] mb-2">
+              <div className="text-2xl md:text-3xl lg:text-5xl font-normal text-[#1d264e] mb-2">
                 02
               </div>
               <div className="text-lg md:text-2xl uppercase text-[#1d264e] font-medium mb-4">
@@ -333,7 +333,7 @@ const About = () => {
 
             {/* Statistic 3 */}
             <div className="text-left">
-              <div className="text-4xl md:text-4xl font-normal text-[#1d264e] mb-2">
+              <div className="text-2xl md:text-3xl lg:text-5xl font-normal text-[#1d264e] mb-2">
                 03
               </div>
               <div className="text-lg md:text-2xl uppercase text-[#1d264e] font-medium mb-4">
@@ -348,7 +348,7 @@ const About = () => {
 
             {/* Statistic 4 */}
             <div className="text-left">
-              <div className="text-4xl md:text-4xl font-normal text-[#1d264e] mb-2">
+              <div className="text-2xl md:text-3xl lg:text-5xl font-normal text-[#1d264e] mb-2">
                 04
               </div>
               <div className="text-lg md:text-2xl uppercase text-[#1d264e] font-medium mb-4">
@@ -370,7 +370,7 @@ const About = () => {
           <h3 className="w-full md:w-full md:max-w-[25%] text-[#1d264e] pl-5 border-l-4 border-[#3ad8ff] text-lg md:text-xl font-medium uppercase">
             MEET THE TEAM
           </h3>
-          <h3 className="w-full md:w-full md:max-w-[75%] text-[#1d264e] text-4xl lg:text-5xl font-normal uppercase">
+          <h3 className="w-full md:w-full md:max-w-[75%] text-[#1d264e] text-2xl md:text-3xl lg:text-5xl font-normal uppercase">
             The People Behind Our Success
           </h3>
         </div>
