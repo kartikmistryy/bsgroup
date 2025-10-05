@@ -45,7 +45,7 @@ export default function Navbar() {
           <li>
             <Link 
               className="pb-5 hover:border-b-2 hover:border-white transition-all duration-300" 
-              href="/"
+              href="/services"
             >
               Services
             </Link>
