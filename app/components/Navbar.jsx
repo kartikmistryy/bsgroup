@@ -53,7 +53,7 @@ export default function Navbar() {
           <li>
             <Link 
               className="pb-5 hover:border-b-2 hover:border-white transition-all duration-300" 
-              href="/"
+              href="/properties"
             >
               Properties
             </Link>
@@ -159,7 +159,7 @@ export default function Navbar() {
               <li>
                 <Link 
                   className="block text-lg font-medium text-[#171e3d] hover:text-blue-400 transition-colors duration-300 pb-2 border-b border-transparent hover:border-blue-400"
-                  href="/"
+                  href="/properties"
                   onClick={closeMobileMenu}
                 >
                   Properties
