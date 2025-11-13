@@ -40,8 +40,9 @@ const About = () => {
   return (
     <div className="w-full h-full flex flex-col relative">
       <section className="w-full h-full flex flex-col relative bg-[url(https://images.pexels.com/photos/3288103/pexels-photo-3288103.png)] bg-cover bg-center min-h-screen md:items-start md:justify-end items-center justify-center px-4 md:px-20 pb-20">
-        <h1 className="text-white text-[50px] md:text-[80px] lg:text-[100px] font-bold header uppercase tracking-wider">
-          ABOUT US
+        <h1 className="text-white md:text-[50px] text-2xl font-bold header uppercase tracking-wider">
+        Building Trust. Crafting Excellence. <br /> Now in Mumbai.
+
         </h1>
       </section>
 
@@ -52,11 +53,12 @@ const About = () => {
         <div className="w-full h-full flex flex-col justify-center items-center max-w-[1400px] mx-auto px-4 md:px-8">
           <div className="w-full h-full flex flex-col md:flex-row items-start justify-between gap-6 md:gap-0">
             <h3 className="w-full md:w-full md:max-w-[25%] text-[#1d264e] pl-5 border-l-4 border-[#3ad8ff] text-lg md:text-xl font-medium">
-              OUR APPROACH
+            Our Story
             </h3>
 
-            <p className="w-full md:w-full md:max-w-[75%] text-[#1d264e] leading-[160%] md:leading-[180%] text-sm md:text-base">
-            At bsgroup we focus on quality, innovation, and sustainability. We start with careful planning and design, using modern techniques and eco-friendly materials to build beautiful, responsible homes. We aim to create vibrant communities. Our projects include well-planned amenities, green spaces, and community areas, which foster a sense of belonging and enhance resident&apos;s quality of life.
+           <p className="w-full md:w-full md:max-w-[75%] text-[#1d264e] leading-[160%] md:leading-[180%] text-sm md:text-base">
+            Since 1992, BS Group Consultancy has been at the forefront of India’s real estate transformation. From premium residential apartments to landmark commercial hubs, we’ve shaped communities that celebrate life, culture and connection.
+We don’t just build homes — we build trust, belonging and legacy. Over 30+ completed projects and 600+ happy families later, our journey stands as a testament to enduring excellence and transparent dealings.
             </p>
           </div>
         </div>
@@ -165,61 +167,38 @@ const About = () => {
 
       <section className="w-full py-16 md:py-20 bg-gray-50">
         <div className="w-full max-w-[1400px] mx-auto px-4 md:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
             {/* Statistic 1 */}
             <div className="text-left">
               <div className="text-4xl md:text-5xl lg:text-[70px] font-normal text-[#1d264e] mb-2">
-                18
+                30+
               </div>
               <div className="text-lg md:text-2xl uppercase text-[#1d264e] font-medium mb-4">
                 Completed Projects
               </div>
               <div className="w-full h-[1.5px] bg-[#53727a] mb-4"></div>
-              <p className="text-sm md:text-base text-gray-600 leading-relaxed">
-                We are delivering high-quality residential complexes on time and within budget.
-              </p>
             </div>
 
             {/* Statistic 2 */}
             <div className="text-left">
               <div className="text-4xl md:text-5xl lg:text-[70px] font-normal text-[#1d264e] mb-2">
-                500+
+                600+
               </div>
               <div className="text-lg md:text-2xl uppercase text-[#1d264e] font-medium mb-4">
                 Happy Families
               </div>
               <div className="w-full h-[1.5px] bg-[#53727a] mb-4"></div>
-              <p className="text-sm md:text-base text-gray-600 leading-relaxed">
-                Creating vibrant communities with modern amenities and sustainable living spaces.
-              </p>
             </div>
 
             {/* Statistic 3 */}
             <div className="text-left">
               <div className="text-4xl md:text-5xl lg:text-[70px] font-normal text-[#1d264e] mb-2">
-                15
+                30+
               </div>
               <div className="text-lg md:text-2xl uppercase text-[#1d264e] font-medium mb-4">
-                Years Experience
+                  Years of Trust
               </div>
               <div className="w-full h-[1.5px] bg-[#53727a] mb-4"></div>
-              <p className="text-sm md:text-base text-gray-600 leading-relaxed">
-                Proven expertise in construction, design, and real estate development.
-              </p>
-            </div>
-
-            {/* Statistic 4 */}
-            <div className="text-left">
-              <div className="text-4xl md:text-5xl lg:text-[70px] font-normal text-[#1d264e] mb-2">
-                100%
-              </div>
-              <div className="text-lg md:text-2xl uppercase text-[#1d264e] font-medium mb-4">
-                Client Satisfaction
-              </div>
-              <div className="w-full h-[1.5px] bg-[#53727a] mb-4"></div>
-              <p className="text-sm md:text-base text-gray-600 leading-relaxed">
-                Committed to excellence and innovation in every project we undertake.
-              </p>
             </div>
           </div>
         </div>
@@ -229,10 +208,11 @@ const About = () => {
         <div className="w-full h-full flex flex-col gap-6 md:gap-10 max-w-[1300px] mx-auto bg-gradient-to-r from-[#ebfffe] to-[#60d5ffa4] py-12 md:py-24 px-4 md:px-10 rounded-lg">
           <div className="w-full h-full flex flex-col md:flex-row items-start justify-between gap-4 md:gap-6">
             <h3 className="w-full md:w-full md:max-w-[25%] text-[#1d264e] pl-3 md:pl-5 border-l-4 border-[#3ad8ff] text-base md:text-lg lg:text-xl font-medium uppercase">
-            Our Timeline
+            Our Legacy
+
             </h3>
 
-            <h3 className="w-full md:w-full md:max-w-[75%] text-[#1d264e] text-2xl md:text-3xl lg:text-5xl font-normal uppercase leading-tight">Our Journey Through the Years</h3>
+            {/* <h3 className="w-full md:w-full md:max-w-[75%] text-[#1d264e] text-2xl md:text-3xl lg:text-5xl font-normal uppercase leading-tight">Our Journey Through the Years</h3> */}
           </div>
 
           <div className="w-full md:max-w-[75%] md:ml-auto md:pr-20 mt-10">
@@ -247,9 +227,9 @@ const About = () => {
                 <div className="flex-shrink-0 w-4 h-4 md:w-5 md:h-5 bg-[#3ad8ff] rounded-full flex items-center justify-center relative z-10">
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-lg md:text-xl lg:text-3xl font-normal text-[#1d264e] mb-2 md:mb-3">2021</h4>
+                  <h4 className="text-lg md:text-xl lg:text-3xl font-normal text-[#1d264e] mb-2 md:mb-3">Building Dreams</h4>
                   <p className="text-gray-700 max-w-full md:max-w-[450px] leading-relaxed text-sm md:text-base">
-                    bsgroup was established with a clear vision to revolutionize the real estate industry through innovative design and sustainable practices. Our founding team brought together decades of experience in construction, architecture, and urban planning to create something truly special in the market.
+                  Thoughtful designs that blend comfort and sophistication.
                   </p>
                 </div>
               </div>
@@ -259,9 +239,9 @@ const About = () => {
                 <div className="flex-shrink-0 w-4 h-4 md:w-5 md:h-5 bg-[#3ad8ff] rounded-full flex items-center justify-center relative z-10">
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-lg md:text-xl lg:text-3xl font-normal text-[#1d264e] mb-2 md:mb-3">2022</h4>
+                  <h4 className="text-lg md:text-xl lg:text-3xl font-normal text-[#1d264e] mb-2 md:mb-3">Elevating Living</h4>
                   <p className="text-gray-700 max-w-full md:max-w-[450px] leading-relaxed text-sm md:text-base">
-                    bsgroup was established with a clear vision to revolutionize the real estate industry through innovative design and sustainable practices. Our founding team brought together decades of experience in construction, architecture, and urban planning to create something truly special in the market.
+                  Integrating sustainability with modern aesthetics.
                   </p>
                 </div>
               </div>
@@ -271,9 +251,9 @@ const About = () => {
                 <div className="flex-shrink-0 w-4 h-4 md:w-5 md:h-5 bg-[#3ad8ff] rounded-full flex items-center justify-center relative z-10">
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-lg md:text-xl lg:text-3xl font-normal text-[#1d264e] mb-2 md:mb-3">2024</h4>
+                  <h4 className="text-lg md:text-xl lg:text-3xl font-normal text-[#1d264e] mb-2 md:mb-3">Built for Generations</h4>
                   <p className="text-gray-700 max-w-full md:max-w-[450px] leading-relaxed text-sm md:text-base">
-                    bsgroup was established with a clear vision to revolutionize the real estate industry through innovative design and sustainable practices. Our founding team brought together decades of experience in construction, architecture, and urban planning to create something truly special in the market.
+                  Homes that endure beyond trends
                   </p>
                 </div>
               </div>
@@ -283,9 +263,9 @@ const About = () => {
                 <div className="flex-shrink-0 w-4 h-4 md:w-5 md:h-5 bg-[#3ad8ff] rounded-full flex items-center justify-center relative z-10">
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-lg md:text-xl lg:text-3xl font-normal text-[#1d264e] mb-2 md:mb-3">2025</h4>
+                  <h4 className="text-lg md:text-xl lg:text-3xl font-normal text-[#1d264e] mb-2 md:mb-3">Uncompromising Quality</h4>
                   <p className="text-gray-700 max-w-full md:max-w-[450px] leading-relaxed text-sm md:text-base">
-                    bsgroup was established with a clear vision to revolutionize the real estate industry through innovative design and sustainable practices. Our founding team brought together decades of experience in construction, architecture, and urban planning to create something truly special in the market.
+                  From concept to completion, excellence is our constant
                   </p>
                 </div>
               </div>
@@ -293,17 +273,16 @@ const About = () => {
           </div>
         </div>
 
-        <div className="w-full h-full flex flex-col md:flex-row items-start justify-between gap-6 md:gap-0 pt-20">
+        {/* <div className="w-full h-full flex flex-col md:flex-row items-start justify-between gap-6 md:gap-0 pt-20">
             <h3 className="w-full md:w-full md:max-w-[25%] text-[#1d264e] pl-5 border-l-4 border-[#3ad8ff] text-lg md:text-xl font-medium uppercase">
             PROCESS
             </h3>
 
             <h3 className="w-full md:w-full md:max-w-[75%] text-[#1d264e] text-2xl md:text-3xl lg:text-5xl font-normal uppercase">
             Check Out How Our Process Works</h3>
-          </div>
+          </div> */}
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 mt-10">
-            {/* Statistic 1 */}
+          {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 mt-10">
             <div className="text-left">
               <div className="text-2xl md:text-3xl lg:text-5xl font-normal text-[#1d264e] mb-2">
                 01
@@ -317,7 +296,6 @@ const About = () => {
               </p>
             </div>
 
-            {/* Statistic 2 */}
             <div className="text-left">
               <div className="text-2xl md:text-3xl lg:text-5xl font-normal text-[#1d264e] mb-2">
                 02
@@ -331,7 +309,6 @@ const About = () => {
               </p>
             </div>
 
-            {/* Statistic 3 */}
             <div className="text-left">
               <div className="text-2xl md:text-3xl lg:text-5xl font-normal text-[#1d264e] mb-2">
                 03
@@ -346,7 +323,6 @@ const About = () => {
               </p>
             </div>
 
-            {/* Statistic 4 */}
             <div className="text-left">
               <div className="text-2xl md:text-3xl lg:text-5xl font-normal text-[#1d264e] mb-2">
                 04
@@ -359,7 +335,7 @@ const About = () => {
               We begin with detailed planning, including site analysis, architectural design, and budget estimation, ensuring a solid foundation for your project.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
         
 
@@ -370,9 +346,13 @@ const About = () => {
           <h3 className="w-full md:w-full md:max-w-[25%] text-[#1d264e] pl-5 border-l-4 border-[#3ad8ff] text-lg md:text-xl font-medium uppercase">
             MEET THE TEAM
           </h3>
-          <h3 className="w-full md:w-full md:max-w-[75%] text-[#1d264e] text-2xl md:text-3xl lg:text-5xl font-normal uppercase">
-            The People Behind Our Success
+         <div className="w-full h-full flex flex-col gap-4">
+         <p className="w-full md:w-full md:max-w-[75%] text-[#1d264e] text-base font-normal uppercase">
+          Behind every successful deal and every dream home stands a team that believes in people before properties. Our experts bring years of market insight, architectural vision and client-first values to every transaction.
+          </p>
+          <h3 className="text-2xl ">We’re not just consultants — we’re partners in your real estate journey.
           </h3>
+         </div>
         </div>
 
         {/* Lead Member */}

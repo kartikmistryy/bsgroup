@@ -13,56 +13,32 @@ const Services = () => {
     {
       src: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&h=800&fit=crop",
       alt: "Modern Home Exterior",
-      title: "Modern Living",
-      subtitle: "Contemporary Architecture",
+      title: "Luxury Rentals",
+      subtitle: "Exclusive short- and long-term rentals featuring premium amenities, bespoke interiors and prime locations. We handpick spaces that offer not just comfort but a statement of lifestyle.",
     },
     {
       src: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1200&h=800&fit=crop",
       alt: "Luxury Interior",
-      title: "Luxury Interiors",
-      subtitle: "Premium Living Spaces",
+      title: "Property Sales",
+      subtitle: "From luxury high-rises to heritage-inspired apartments, gain access to Mumbai’s most elite properties with end-to-end transaction support. We ensure transparency, value and a smooth transition from first visit to final handover.",
     },
     {
       src: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&h=800&fit=crop",
       alt: "Beautiful Garden",
-      title: "Outdoor Spaces",
-      subtitle: "Landscaped Gardens",
+      title: "Acquisition & Leasing Strategy",
+      subtitle: "For investors and corporate clients, we develop custom strategies to maximize ROI, portfolio strength and asset security. Our in-depth market expertise helps you make informed, future-ready decisions.",
     },
     {
       src: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=800&fit=crop",
       alt: "Living Room",
-      title: "Interior Design",
-      subtitle: "Cozy Living Spaces",
+      title: "Wealth & Well-being Advisory",
+      subtitle: "We don’t just help you invest — we help you grow and preserve your wealth. Our advisory services connect real estate investments with your lifestyle aspirations and long-term goals.",
     },
     {
       src: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&h=800&fit=crop",
       alt: "Luxury Bathroom",
-      title: "Luxury Bathrooms",
-      subtitle: "Spa-like Experiences",
-    },
-    {
-      src: "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=1200&h=800&fit=crop",
-      alt: "Modern Bedroom",
-      title: "Master Bedrooms",
-      subtitle: "Serene Retreats",
-    },
-    {
-      src: "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=1200&h=800&fit=crop",
-      alt: "Kitchen Design",
-      title: "Modern Kitchens",
-      subtitle: "Culinary Excellence",
-    },
-    {
-      src: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&h=800&fit=crop",
-      alt: "Office Space",
-      title: "Home Office",
-      subtitle: "Productive Workspaces",
-    },
-    {
-      src: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1200&h=800&fit=crop",
-      alt: "Dining Room",
-      title: "Elegant Dining",
-      subtitle: "Fine Dining Spaces",
+      title: "Experience the Pinnacle of Real Estate Excellence",
+      subtitle: "Partner with BS Group Consultancy and gain exclusive access to Mumbai’s most desirable residential and commercial spaces. We bring knowledge, integrity and human warmth to every interaction because your success is our reputation.",
     },
   ];
 
@@ -91,8 +67,8 @@ const Services = () => {
   return (
     <div className="w-full h-full flex flex-col relative">
       <section className="w-full h-full flex flex-col relative bg-[url(https://images.pexels.com/photos/3288103/pexels-photo-3288103.png)] bg-cover bg-center min-h-screen md:items-start md:justify-end items-center justify-center px-4 md:px-20 pb-20">
-        <h1 className="text-white text-[50px] md:text-[80px] lg:text-[100px] font-bold header uppercase tracking-wider">
-          Services
+        <h1 className="text-white md:text-[50px] text-2xl font-bold header uppercase tracking-wider">
+        Your 360° Partner in Real Estate Success.
         </h1>
       </section>
 
