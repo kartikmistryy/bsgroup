@@ -1015,14 +1015,14 @@ export default function Home() {
                 Your Partner in Every Real Estate Milestone
               </h3>
               <p className="text-gray-200 leading-relaxed text-base md:text-lg">
-                At BS Group Consultancy, every key you receive opens more than a door, it opens a new chapter of your life. We don't just deal in properties; we create experiences rooted in trust, precision and care.
+                At BS Group Consultancy, every key you receive opens more than a door, it opens a new chapter of your life. We don&apos;t just deal in properties; we create experiences rooted in trust, precision and care.
               </p>
               <p className="text-gray-200 leading-relaxed text-base md:text-lg">
-                Join us in redefining Mumbai's skyline one meaningful space at a time.
+                Join us in redefining Mumbai&apos;s skyline one meaningful space at a time.
               </p>
               <div className="mt-6 p-6 md:p-8 bg-white/10 backdrop-blur-sm rounded-xl border border-white/20">
                 <p className="text-white font-semibold text-lg md:text-xl">
-                  Experience the pinnacle of real estate excellence. Partner with us to unlock Mumbai's most exclusive living spaces.
+                  Experience the pinnacle of real estate excellence. Partner with us to unlock Mumbai&apos;s most exclusive living spaces.
                 </p>
               </div>
             </div>
